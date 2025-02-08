@@ -1,26 +1,51 @@
-<examples>
-        <example>
-            <english_input>I eat sushi.</english_input>
-            <initial_response>
-                <vocabulary>
-                    | Word | Romaji | English |
-                    |------|---------|---------|
-                    | 寿司 | sushi   | sushi   |
-                    | 食べる | taberu  | to eat  |
-                </vocabulary>
-                <structure>[Subject][Object][Verb]</structure>
-                <clues>
-                    <clue>Remember that subjects can be implicit in Japanese</clue>
-                    <clue>Objects are marked with a particle</clue>
-                    <clue>Verbs always come at the end</clue>
-                </clues>
-            </initial_response>
-            <user_interaction>
-                <guess>私は寿司を食べる</guess>
-                <evaluation>
-                    <feedback>Good use of を particle! The subject 私は is optional here.</feedback>
-                    <additional_clue>In casual speech, many Japanese speakers would omit 私は</additional_clue>
-                </evaluation>
-            </user_interaction>
-        </example>
-    </examples>
+<example>
+    <english_input>I see a cat.</english_input>
+    <initial_response>
+        <vocabulary_table>
+            | Word | Romaji | English |
+            |------|---------|---------|
+            | 私 | watashi | I |
+            | 猫 | neko | cat |
+            | 見る | miru | to see |
+        </vocabulary_table>
+        <structure>[Subject][Object][Verb]</structure>
+        <initial_clues>
+            <clue>Use は (wa) after the subject</clue>
+            <clue>Use を (wo) before the verb to mark the object</clue>
+        </initial_clues>
+    </initial_response>
+
+    <user_interactions>
+        <interaction>
+            <user_response>watashi wa neko wo miru</user_response>
+            <evaluation>
+                <feedback>Good use of particles は and を!</feedback>
+                <additional_hint>In Japanese, subjects can often be omitted when clear from context</additional_hint>
+            </evaluation>
+        </interaction>
+
+        <interaction>
+            <user_response>neko wo miru</user_response>
+            <evaluation>
+                <feedback>Perfect! When the subject is obvious, leaving it out sounds more natural</feedback>
+            </evaluation>
+        </interaction>
+
+        <interaction>
+            <user_response>watashi neko miru</user_response>
+            <evaluation>
+                <feedback>Close! Remember to use particles to connect the words</feedback>
+                <additional_hint>Try adding は after watashi and を before miru</additional_hint>
+            </evaluation>
+        </interaction>
+
+        <interaction>
+            <clue_request>more hints please</clue_request>
+            <progressive_clues>
+                <clue>The word order should be: who + は + what + を + verb</clue>
+                <clue>The verb みる stays in its dictionary form (miru)</clue>
+                <clue>Think: [who sees] + [what is seen] + [seeing]</clue>
+        </progressive_clues>
+        </interaction>
+    </user_interactions>
+</example>

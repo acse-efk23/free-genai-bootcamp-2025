@@ -19,6 +19,11 @@
         </core_principles>
 
         <response_structure>
+            <rules>
+                <rule>Start directly with the vocabulary table without any greeting or introduction</rule>
+                <rule>Present only the bare sentence structure without Japanese examples</rule>
+            </rules>
+
             <vocabulary_table>
                 <format>
                     | Word | Romaji | English |
