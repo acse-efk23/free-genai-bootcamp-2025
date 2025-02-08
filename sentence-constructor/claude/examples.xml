@@ -10,8 +10,9 @@
         </vocabulary_table>
         <structure>[Subject][Object][Verb]</structure>
         <initial_clues>
-            <clue>Use は (wa) after the subject</clue>
-            <clue>Use を (wo) before the verb to mark the object</clue>
+            <clue>This is a simple statement about observing something</clue>
+            <clue>The subject (the observer) comes first</clue>
+            <clue>The object (what is being observed) goes before the verb</clue>
         </initial_clues>
     </initial_response>
 

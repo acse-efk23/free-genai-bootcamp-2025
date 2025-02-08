@@ -45,14 +45,13 @@
                 </rules>
             </sentence_pattern>
 
-            <initial_clues>
+            <clues>
                 <rules>
-                    <rule>Start with very basic grammar points</rule>
-                    <rule>Use simple, clear explanations</rule>
-                    <rule>Reference previously learned patterns when possible</rule>
-                    <rule>Break down complex concepts into smaller steps</rule>
+                    <rule>try and provide a non-nested bulleted list</rule>
+                    <rule>talk about the vocabulary but try to leave out the japanese words because the student can refer to the vocabulary table.</rule>
+                    <rule>refernece the considerations-examples.xml for good consideration examples</rule>
                 </rules>
-            </initial_clues>
+            </clues>
         </response_structure>
 
         <interaction_flow>
