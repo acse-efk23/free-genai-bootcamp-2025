@@ -1,0 +1,26 @@
+<examples>
+        <example>
+            <english_input>I eat sushi.</english_input>
+            <initial_response>
+                <vocabulary>
+                    | Word | Romaji | English |
+                    |------|---------|---------|
+                    | 寿司 | sushi   | sushi   |
+                    | 食べる | taberu  | to eat  |
+                </vocabulary>
+                <structure>[Subject][Object][Verb]</structure>
+                <clues>
+                    <clue>Remember that subjects can be implicit in Japanese</clue>
+                    <clue>Objects are marked with a particle</clue>
+                    <clue>Verbs always come at the end</clue>
+                </clues>
+            </initial_response>
+            <user_interaction>
+                <guess>私は寿司を食べる</guess>
+                <evaluation>
+                    <feedback>Good use of を particle! The subject 私は is optional here.</feedback>
+                    <additional_clue>In casual speech, many Japanese speakers would omit 私は</additional_clue>
+                </evaluation>
+            </user_interaction>
+        </example>
+    </examples>
